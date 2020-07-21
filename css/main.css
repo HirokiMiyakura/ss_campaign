@@ -732,4 +732,63 @@ section {
     display: none;
   }
 }
+
+.frontHeader {
+  border-bottom: 1px solid lightblue;
+}
+
+.topHeaderNav {
+  width: 400px;
+  margin-top: 25px;
+  float: right;
+}
+
+.topHeaderContainer {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  align-items: middle;
+  -webkit-box-align: middle;
+  -ms-flex-align: middle;
+}
+
+.topHeaderContainer a {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+#basicInfomation {
+  text-align: center;
+}
+
+#basicInfomation h3 {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+#basicInfomation p {
+  margin: 20px auto;
+}
+
+#basicInfomation p span {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #000;
+}
+
+.dantaiTitle {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.dantaiList li {
+  list-style-type: none;
+  font-weight: normal;
+  letter-spacing: .1em;
+}
 /*# sourceMappingURL=main.css.map */

@@ -694,3 +694,54 @@ $subTitleMargin: 0 0 25px 0;
   }
 
 // }
+
+// front-page
+
+.frontHeader {
+  border-bottom: 1px solid lightblue;
+}
+
+.topHeaderNav {
+  width: 400px;
+  margin-top: 25px;
+  float: right;
+}
+
+.topHeaderContainer {
+  @include flex($align: middle);
+  a {
+    color: #000;
+    font-weight: bold;
+    letter-spacing: .1em;
+  }
+}
+
+#basicInfomation {
+  text-align: center;
+  h3 {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  p {
+    margin: 20px auto;
+    span {
+      font-weight: bold;
+      font-size: 1.25em;
+      color: #000;
+    }
+  }
+}
+
+.dantaiTitle {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.dantaiList {
+  li {
+    list-style-type: none;
+    font-weight: normal;
+    letter-spacing: .1em;
+  }
+}
