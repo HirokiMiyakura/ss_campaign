@@ -49,7 +49,7 @@ conditionizr.config({
 		<ul>
 			<li><a href="<?php echo home_url(); ?>/gototravel/">GoTo Travel<br>キャンペーン</a></li>
 			<li><a href="<?php echo home_url(); ?>/realestate/">不動産<br>活用方法</a></li>
-			<li><a href="<?php echo home_url(); ?>/ending/">新しい人生の<br>終まい方</a></li>
+			<li><a href="<?php echo home_url(); ?>/ending/">新しい人生の<br>終い方</a></li>
 		</ul>
 	</div>
 </nav>
@@ -71,7 +71,7 @@ conditionizr.config({
 		<a href="<?php echo home_url(); ?>/realestate/">不動産<br>活用方法</a>
 	</div>
 	<div class="topHeaderContainerItem">
-		<a href="<?php echo home_url(); ?>/ending/">新しい人生の<br>終まい方</a>
+		<a href="<?php echo home_url(); ?>/ending/">新しい人生の<br>終い方</a>
 	</div>
 </div>
 </div>
