@@ -53,7 +53,7 @@ conditionizr.config({
 		</ul>
 	</div>
 </nav>
-<div class="toggle_btn">
+<div class="toggle_btn front_toggle_btn">
 	<span></span>
 	<span></span>
 	<span></span>
@@ -78,8 +78,3 @@ conditionizr.config({
 <!-- /div -->
 </header>
 <!-- /header -->
-<style>
-.toggle_btn {
-	right: 10px;
-}
-</style>
