@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .wpcf7c-conf {
   background-color: #eeeeee !important;
 }
@@ -782,6 +783,24 @@ section {
   color: #000;
 }
 
+.cv_green a {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.6rem 0 1.2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5.28024%, #1eaa00), color-stop(27.03144%, #1eaa00), color-stop(83.16627%, #62aa52), color-stop(83.16627%, #63aa53));
+  background: linear-gradient(180deg, #1eaa00 5.28024%, #1eaa00 27.03144%, #62aa52 83.16627%, #63aa53 83.16627%);
+  -webkit-box-shadow: 0px 5px 6px 1px #adadad;
+          box-shadow: 0px 5px 6px 1px #adadad;
+  border: 3px #fff solid;
+  border-radius: 80px;
+}
+
 .dantaiTitle {
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -798,5 +817,18 @@ section {
   .toggle_btn.front_toggle_btn {
     right: 10px;
   }
+}
+
+a, a:focus {
+  outline: none !important;
+}
+
+button, input, input:focus {
+  outline: none !important;
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: none !important;
 }
 /*# sourceMappingURL=main.css.map */
