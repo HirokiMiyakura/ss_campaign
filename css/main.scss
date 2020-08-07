@@ -548,6 +548,99 @@ $subTitleMargin: 0 0 25px 0;
     padding: 20px 0;
   }
 
+  .planArticle {
+    max-width: 800px;
+    margin: 80px auto;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 900;
+      padding: 15px;
+      // background-color: #00adff;
+      color: #ffff00;
+      background: url('../img/plan/titleBg.png') no-repeat;
+      // span {
+      //   background-image: url('../img/plan/courseTitle.png') no-repeat right center;
+      // }
+    }
+    h2 {
+      font-size: 1.35em;
+      font-weight: 900;
+      // letter-spacing: .1em;
+      text-align: center;
+      padding: 7px 0;
+      color: #00adff;
+      border: 2px solid #00adff;
+      border-radius: 10px;
+      margin: 40px 0 20px 0;
+    }
+  }
+
+  .planInner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .planContainer {
+    @include flex();
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &__item {
+      width: 49%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .planTable {
+    width: 100%;
+    border: collapse;
+    margin-bottom: 20px;
+    td {
+      min-width: 80px;
+      padding: 10px;
+      font-weight: 900;
+    }
+  }
+
+  .modelPlanTable {
+    width: 100%;
+  }
+
+  .sumTitle {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-align: center;
+    background-color: #ffff00;
+    padding: 10px;
+    margin: 20px 0;
+    p {
+      margin: 0;
+    }
+  }
+
+  .pink {
+    color: #ff4f8b;
+  }
+
+  .hojoTitle {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-align: center;
+    color: #ff4f8b;
+    background-color: #ffff00;
+    padding: 10px;
+    margin: 20px 0;
+    p {
+      margin: 0;
+    }
+  }
+
+  .yajirushi {
+    text-align: center;
+    margin: 25px auto;
+  }
+
   @media screen and (max-width: 768px) { 
     .pc {
       display: none;
@@ -683,6 +776,27 @@ $subTitleMargin: 0 0 25px 0;
       }
       button, input, select, textarea {
         width: 100%;
+      }
+    }
+
+    .planArticle {
+      margin: 25px auto;
+      padding: 15px;
+      h1 {
+        font-size: 1em;
+        padding: 10px;
+        background-size: contain;
+      }
+    }
+
+    .planContainer {
+      display: block;
+      margin: 10px 0;
+      &__item {
+        width: 100%;
+        img {
+          width: 100%;
+        }
       }
     }
   }

@@ -6,7 +6,7 @@ Template Name: GOTOトラベルキャンペーンページ（gototravel-page.php
 <?php get_header(); ?>
 <main role="main">
 <p>
-  <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/ss/main_pc.png" alt="メイン画像" />
+  <img width="100%" class="pc" src="<?php echo get_template_directory_uri(); ?>/img/ss/main_pc.png" alt="メイン画像" />
   <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/ss/main_pc.png" alt="メイン画像" />
 </p>
 

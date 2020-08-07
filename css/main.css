@@ -602,6 +602,111 @@ section {
   padding: 20px 0;
 }
 
+.planArticle {
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+.planArticle h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: 15px;
+  color: #ffff00;
+  background: url("../img/plan/titleBg.png") no-repeat;
+}
+
+.planArticle h2 {
+  font-size: 1.35em;
+  font-weight: 900;
+  text-align: center;
+  padding: 7px 0;
+  color: #00adff;
+  border: 2px solid #00adff;
+  border-radius: 10px;
+  margin: 40px 0 20px 0;
+}
+
+.planInner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.planContainer {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.planContainer__item {
+  width: 49%;
+}
+
+.planContainer__item img {
+  width: 100%;
+}
+
+.planTable {
+  width: 100%;
+  border: collapse;
+  margin-bottom: 20px;
+}
+
+.planTable td {
+  min-width: 80px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.modelPlanTable {
+  width: 100%;
+}
+
+.sumTitle {
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+  background-color: #ffff00;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.sumTitle p {
+  margin: 0;
+}
+
+.pink {
+  color: #ff4f8b;
+}
+
+.hojoTitle {
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+  color: #ff4f8b;
+  background-color: #ffff00;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.hojoTitle p {
+  margin: 0;
+}
+
+.yajirushi {
+  text-align: center;
+  margin: 25px auto;
+}
+
 @media screen and (max-width: 768px) {
   .pc {
     display: none;
@@ -724,6 +829,25 @@ section {
     margin-bottom: 5px;
   }
   .contact_table button, .contact_table input, .contact_table select, .contact_table textarea {
+    width: 100%;
+  }
+  .planArticle {
+    margin: 25px auto;
+    padding: 15px;
+  }
+  .planArticle h1 {
+    font-size: 1em;
+    padding: 10px;
+    background-size: contain;
+  }
+  .planContainer {
+    display: block;
+    margin: 10px 0;
+  }
+  .planContainer__item {
+    width: 100%;
+  }
+  .planContainer__item img {
     width: 100%;
   }
 }
